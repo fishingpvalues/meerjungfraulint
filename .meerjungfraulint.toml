@@ -1,0 +1,6 @@
+[rules]
+duplicate-node = { enabled = true, severity = "Error" }
+unknown-node = { enabled = true, severity = "Error" }
+naming-convention = { enabled = true, severity = "Warning" }
+large-diagram = { enabled = true, severity = "Info" }
+missing-edge-label = { enabled = false, severity = "Warning" }
