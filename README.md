@@ -1,6 +1,6 @@
 # Meerjungfraulint
 
-A fast, state-of-the-art linter for Markdown files with Mermaid diagrams.
+A linter for Markdown files with Mermaid diagrams.
 
 ## Features
 
@@ -15,7 +15,7 @@ A fast, state-of-the-art linter for Markdown files with Mermaid diagrams.
 ## Installation
 
 ```bash
-cargo install meerjungfraulint
+cargo install --git https://github.com/fishingpvalues/meerjungfraulint --branch dev
 ```
 
 ## Usage
@@ -104,10 +104,6 @@ Service --> AIClient : für KI-Generierung
 ```
 
 ## Editor Integration
-
-### VSCode
-
-Install the Lintjungfrau extension (placeholder).
 
 ### Neovim
 
